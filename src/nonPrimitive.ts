@@ -22,18 +22,20 @@ let destination: [string, string, number] = ['Dhaka', 'Chittagong', 200]
 
 const user: {
     organization: "TUUO Solutions"; //Value type of data types: Literal types
+    readonly location: string // Access modifier
     firstName: string;
     middleName?: string;  //Optional Type
     lastName: string;
     isMarried: boolean;
 } = {
     organization: "TUUO Solutions",
+    location: "Dhaka",
     firstName: 'MD',
     middleName: 'Rehan',
     lastName: 'Ali',
     isMarried: true
 }
 
-user.organization = "PH Solutions";
+// user.organization = "PH Solutions";
 
 console.log(user);
