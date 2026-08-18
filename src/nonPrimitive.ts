@@ -14,3 +14,26 @@ let couple: [string, string] = ['husband', 'wife'];
 let nameAndRoll: [string, number] = ['Baker', 20];
 
 let destination: [string, string, number] = ['Dhaka', 'Chittagong', 200]
+
+
+// Object 
+
+// reference type : object 
+
+const user: {
+    organization: "TUUO Solutions"; //Value type of data types
+    firstName: string;
+    middleName?: string;  //Optional Type
+    lastName: string;
+    isMarried: boolean;
+} = {
+    organization: "TUUO Solutions",
+    firstName: 'MD',
+    middleName: 'Rehan',
+    lastName: 'Ali',
+    isMarried: true
+}
+
+user.organization = "PH Solutions";
+
+console.log(user);

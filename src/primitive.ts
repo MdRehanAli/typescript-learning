@@ -2,7 +2,7 @@
 // String, number, boolean, undefined, null
 
 // TS Primitive Type: 
-// never, any, unknown, void 
+// never, any, unknown, void, value 
 
 let userName: string = "Bakervai";
 
