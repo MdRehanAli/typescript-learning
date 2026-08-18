@@ -2,7 +2,7 @@
 // String, number, boolean, undefined, null
 
 // TS Primitive Type: 
-// never, unknown, void 
+// never, any, unknown, void 
 
 let userName: string = "Bakervai";
 
@@ -17,4 +17,7 @@ let isAdmin = true;
 isAdmin = false; //implicit type of data type
 
 
+let x;  //This is type 'any';
+
+let y: undefined = undefined //This is type 'undefined';
 
