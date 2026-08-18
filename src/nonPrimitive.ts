@@ -21,7 +21,7 @@ let destination: [string, string, number] = ['Dhaka', 'Chittagong', 200]
 // reference type : object 
 
 const user: {
-    organization: "TUUO Solutions"; //Value type of data types
+    organization: "TUUO Solutions"; //Value type of data types: Literal types
     firstName: string;
     middleName?: string;  //Optional Type
     lastName: string;
