@@ -1,16 +1,7 @@
-let userName = 'Bakervai';
-
-userName = 123
-
-console.log("User Name:", userName);
-
-
+// Spread Operator 
 
 const friends = ['Rahim', 'Karim'];
 const schoolFriends = ['pintu', 'jhantu', 'bulbul'];
 const collegeFriends = ['Moinul', 'Sabbir', 'Sishir'];
 
 friends.push(schoolFriends);
-
-console.log(friends);
-
