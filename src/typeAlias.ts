@@ -42,3 +42,15 @@ const user2: User = {
         city: 'Uttara'
     }
 }
+
+type IsAdmin = true;
+const isAdmin: IsAdmin = true;
+
+type Name = string;
+const myName: Name = 'Baker Vai';
+
+// Function Alias 
+
+type AddFunction = (num1: number, num2: number) => number
+
+const add: AddFunction = (num1, num2) => num1 + num2;
