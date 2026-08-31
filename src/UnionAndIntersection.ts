@@ -1,4 +1,4 @@
-//Union |
+//Union | Intersection
 
 type UserRole= 'admin' | 'user' | 'guest';
 
