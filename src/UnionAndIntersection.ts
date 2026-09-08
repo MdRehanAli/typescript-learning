@@ -1,17 +1,41 @@
 //Union | Intersection 
 
 
-type UserRole= 'admin' | 'user' | 'guest';
+type UserRole = 'admin' | 'user' | 'guest';
 
 const getDashboard = (role: UserRole) => {
-    if(role === 'admin'){
+    if (role === 'admin') {
         return 'Admin Dashboard';
     }
-    else if (role === 'user'){
+    else if (role === 'user') {
         return 'User Dashboard';
     }
-    else{
+    else {
         return 'Guest Dashboard';
-    } 
-    
+    }
+}
+
+getDashboard('guest');
+
+// Intersection 
+
+type Employee = {
+    id: string;
+    name: string;
+    phoneNo: string;
+};
+
+type Manager = {
+    designation: string;
+    teamSize: number;
+};
+
+type EmployeeManager = Employee & Manager
+
+const ChowdhuryShaheb: EmployeeManager = {
+    id: '123',
+    name: 'Chowdhury Shaheb',
+    phoneNo: '017',
+    designation: 'manager',
+    teamSize: 20
 }
