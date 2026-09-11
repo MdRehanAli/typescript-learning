@@ -24,7 +24,6 @@ console.log({ result2 })
 
 
 
-
 type CustomError = {
     message: string;
 }
