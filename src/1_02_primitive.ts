@@ -20,4 +20,3 @@ isAdmin = false; //implicit type of data type
 let x;  //This is type 'any';
 
 let y: undefined = undefined //This is type 'undefined';
-
